@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Azeret Mono", monospace;
 }
 
@@ -11,235 +12,405 @@
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-  }
+}
 
-body{
-    background:#000;
-  
+body {
+    background: #000;
+
 }
+
 /* <---------hero start here---------------> */
-#hero{
+#hero {
     max-width: 100%;
-    width:1170px;
-    background:#fff;
-    margin:0 auto;
-    position:relative;
-   
+    width: 1170px;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+
 }
-#hero img{
+
+#hero img {
     width: 100%;
-    margin:70px 0;
- 
+    margin: 70px 0;
+
 }
-.group-img{
-    width:245px;
-    height:240px;
+
+.group-img {
+    width: 245px;
+    height: 240px;
     position: absolute;
-    top:40px;
+    top: 40px;
     left: 50%;
     transform: translateX(-50%);
-    padding:10px;
+    padding: 10px;
 }
 
- .header-description{
-       position: absolute;
-       top:350px;
-       left:50%;
-       transform:translateX(-50%);
-       padding:10px 0px ;
-  
- }
- .header-description h1{
-    font-size:23px;
+.header-description {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 0px;
+
+}
+
+.header-description h1 {
+    font-size: 23px;
     padding: 10px 0;
-    text-align:justify;
-    word-spacing:-8px;
+    text-align: justify;
+    word-spacing: -8px;
     letter-spacing: 0.1px;
     font-weight: 700;
-  
- }
 
- .header-description p{
+}
+
+.header-description p {
     font-size: 15px;
     text-align: center;
     padding: 10px 0;
     /* line-height: 22px; */
-    opacity:0.7;
-    font-weight:400;
-    
- }
- .contact-btn{
-    position:absolute;
-    top:530px ;
+    opacity: 0.7;
+    font-weight: 400;
+
+}
+
+.contact-btn {
+    position: absolute;
+    top: 530px;
     left: 50%;
     transform: translateX(-50%);
-  
- }
- .contact-btn button{
-    width:220px;
+
+}
+
+.contact-btn button {
+    width: 220px;
     height: 55px;
     border: 0;
-    outline:0;
-    color:#fff;
-    background:#2E366D;
+    outline: 0;
+    color: #fff;
+    background: #2E366D;
     border-radius: 5px;
     font-size: 15px;
-    padding:5px ;
+    padding: 5px;
 
- }
+}
+
 /* <---------hero end here---------------> */
- #web-feeling{
-     width:900px;
- 
-     margin:-20px auto;
-     background:rgba(250,250,251);
+#web-feeling {
+    width: 900px;
+    border: 2px solid red;
+    margin: -20px auto;
+    background: rgba(250, 250, 251);
 
- }
- #web-feeling .why-web{
+}
+
+#web-feeling .why-web {
     text-align: center;
-    padding:10px 0;
-    margin:30px 0;
- }
- .why-web h2{
-     font-weight:650;
-     word-spacing:-5px;
-     padding: 30px 10px 20px;
- }
- .why-web p{
-    font-size:15px;
-    opacity: 0.7;
-    font-weight:350;
- }
-/* -----------commit-1 div start here-------- */
- .commitment-1{
-     display:flex;
-     background:#fff;
-     margin:10px 60px 50px;
-     height: 200px;
-     border-radius:10px;
- }
- .commitment-1 .c-left{
-     width:60%;
+    padding: 10px 0;
+    margin: 30px 0;
     
-     padding: 10px 15px;
-     text-align:left;
- } 
- .commitment-1 .c-left h3{
-    font-weight:560;
+}
+
+.why-web h2 {
+    font-weight: 650;
     word-spacing: -5px;
-    padding:20px 8px 5px;
+    padding: 30px 10px 20px;
+}
+
+.why-web p {
+    font-size: 15px;
+    opacity: 0.7;
+    font-weight: 350;
+}
+
+/* -----------commit-1 div start here-------- */
+.commitment-1 {
+    display: flex;
+    background: #fff;
+    margin: 10px 60px 50px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.commitment-1 .c-left {
+    width: 60%;
+
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.commitment-1 .c-left h3 {
+    font-weight: 560;
+    word-spacing: -5px;
+    padding: 20px 8px 5px;
     margin: 20px 0 5px;
-    font-size:17.8px;
- }
- .commitment-1 .c-left p{
-    font-size:14px;
-    word-spacing:-3px;
-    padding:5px 10px;
-    opacity:0.7;
- }
- .commitment-1 .c-left button{
-    width:150px;
-    height:40px;
+    font-size: 17.8px;
+}
+
+.commitment-1 .c-left p {
+    font-size: 14px;
+    word-spacing: -3px;
+    padding: 5px 10px;
+    opacity: 0.7;
+}
+
+.commitment-1 .c-left button {
+    width: 150px;
+    height: 40px;
     font-weight: 500;
     font-size: 15px;
-    margin:20px 10px;
-    padding:10px 0;
- }
- .commitment-1 .c-right{
-    width:40%;
-    margin-top:-25px ;
- }
- .commitment-1 .c-right img{
-   
-       height:130px;
- }
- /* ---------------commit-1 div end here--------- */
- /* -------------commit-2 div start here---------- */
- .commitment-2{
-    display:flex;
-    background:#fff;
-    margin:10px 60px 50px;
-    height: 200px;
-    border-radius:10px;
+    margin: 20px 10px;
+    padding: 10px 0;
 }
-.commitment-2 .c-right{
-    width:60%;
-   
-    padding: 0px 15px;
-    text-align:left;
-} 
-.commitment-2 .c-right h3{
-   font-weight:560;
-   word-spacing: -5px;
-   padding:20px 8px 5px;
-   margin: 20px 0 5px;
-   font-size:17.8px;
-}
-.commitment-2 .c-right p{
-   font-size:14px;
-   word-spacing:-3px;
-   padding:5px 10px;
-   opacity:0.7;
-}
-.commitment-2 .c-right button{
-   width:150px;
-   height:40px;
-   font-weight: 500;
-   font-size: 15px;
-   margin:8px 10px;
-   padding:10px 0;
-}
-.commitment-2 .c-left{
-   width:40%;
-   margin-top:-25px ;
-}
-.commitment-2 .c-left img{
-  
-      height:130px;
-}
- /* ----------------commit-2 div end here---------- */
 
-  /*--------------- commit-3 div start here -------------*/
-  .commitment-3{
-    display:flex;
-    background:#fff;
-    margin:10px 60px 50px;
+.commitment-1 .c-right {
+    width: 40%;
+    margin-top: -25px;
+}
+
+.commitment-1 .c-right img {
+
+    height: 130px;
+}
+
+/* ---------------commit-1 div end here--------- */
+/* -------------commit-2 div start here---------- */
+.commitment-2 {
+    display: flex;
+    background: #fff;
+    margin: 10px 60px 50px;
     height: 200px;
-    border-radius:10px;
+    border-radius: 10px;
 }
-.commitment-3 .c-left{
-    width:60%;
-   
+
+.commitment-2 .c-right {
+    width: 60%;
+
+    padding: 0px 15px;
+    text-align: left;
+}
+
+.commitment-2 .c-right h3 {
+    font-weight: 560;
+    word-spacing: -5px;
+    padding: 20px 8px 5px;
+    margin: 20px 0 5px;
+    font-size: 17.8px;
+}
+
+.commitment-2 .c-right p {
+    font-size: 14px;
+    word-spacing: -3px;
+    padding: 5px 10px;
+    opacity: 0.7;
+}
+
+.commitment-2 .c-right button {
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 8px 10px;
+    padding: 10px 0;
+}
+
+.commitment-2 .c-left {
+    width: 40%;
+    margin-top: -25px;
+}
+
+.commitment-2 .c-left img {
+
+    height: 130px;
+}
+
+/* ----------------commit-2 div end here---------- */
+
+/*--------------- commit-3 div start here -------------*/
+.commitment-3 {
+    display: flex;
+    background: #fff;
+    margin: 10px 60px 50px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.commitment-3 .c-left {
+    width: 60%;
+
     padding: 10px 15px;
-    text-align:left;
-} 
-.commitment-3 .c-left h3{
-   font-weight:560;
-   word-spacing: -5px;
-   padding:20px 8px 5px;
-   margin: 20px 0 5px;
-   font-size:17.8px;
+    text-align: left;
 }
-.commitment-3 .c-left p{
-   font-size:14px;
-   word-spacing:-3px;
-   padding:5px 10px;
-   opacity:0.7;
+
+.commitment-3 .c-left h3 {
+    font-weight: 560;
+    word-spacing: -5px;
+    padding: 20px 8px 5px;
+    margin: 20px 0 5px;
+    font-size: 17.8px;
 }
-.commitment-3 .c-left button{
-   width:150px;
-   height:40px;
-   font-weight: 500;
-   font-size: 15px;
-   margin:20px 10px;
-   padding:10px 0;
+
+.commitment-3 .c-left p {
+    font-size: 14px;
+    word-spacing: -3px;
+    padding: 5px 10px;
+    opacity: 0.7;
 }
-.commitment-3 .c-right{
-   width:40%;
-   margin-top:-25px ;
+
+.commitment-3 .c-left button {
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 20px 10px;
+    padding: 10px 0;
 }
-.commitment-3 .c-right img{
+
+.commitment-3 .c-right {
+    width: 40%;
+    margin-top: -25px;
+}
+
+.commitment-3 .c-right img {
+
+    height: 130px;
+}
+
+/*----------------commit-3 div end here-------------------- */
+/*   ------------inspiration div start here--------------- */
+.inspiration{
+    width: 900px;
+    /* border: 2px solid red; */
+    margin:80px auto 50px;
+    text-align: center;
+
+}
+.inspiration-1{
+    margin:50px 0px;
+    line-height: 40px;
+}
+.inspiration-1 h4{
+    font-size: 20px;
+    font-weight: 550;
+}
+.inspiration-1 p{
+    font-size: 15px;
+    font-weight: 350;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.inspiration-2{
+    margin:40px auto; 
+    width:900px ;
+    height: 500px;
+    border:1px solid rgba(30,30,30);
+    /* background: rgba(250, 250, 251); */
+    border-radius: 8px;
+
+}
+.inspiration-2 iframe{
+    width: 92%;
+    height: 90%;
+    padding-top: 40px;
+   
+    
+}
+/* ---------------inspiration div end here------------------ */
+
+.target{
+    width: 900px;
+    border: 2px solid red;
+    margin: 10px auto;
+}
+.target-1{
+     text-align: center;
+     margin:10px 0;
+}
+.target-1 h5{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+.target-1 p{
+    opacity: 0.7;
+    padding: 5px;
+}
+.target-2{
+   display:flex;
+   justify-content: space-around;
+   margin: 40px;
+}
+.target-2 div {
+    width: 250px;
+    height: 350px;
+     text-align: left;
+     padding-left:20px;
+     padding-bottom:50px ;
+     border-radius: 10px;
+     margin: 20px;
   
-      height:130px;
 }
-  /*----------------commit-3 div end here-------------------- */
+.target-2 div img{
+   padding-top:5px ;
+}
+.target-2 div p{
+   font-size: 14px;
+   padding:5%;
+    
+}
+.target-2 div a{
+    padding:10px;
+    
+}
+
+.support{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+.support img{
+    height: 300px;
+    border-radius: 10px;
+}
+.support-des{
+  position: absolute;
+  top:130px ;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.support-des h6{
+    color: #fff;
+    font-size: 20px;
+    padding:10px;
+    text-align: center;
+}
+.support-des p{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+.support-des input{
+    margin-top:100px ;
+    margin-left: -80px;
+    width: 500px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    padding: 20px;
+}
+::placeholder{
+    padding-left:20px;
+    opacity: 0.7;
+}
+.support-des #submit{
+     position: absolute;
+     bottom: 1px;
+     right: -120px;
+     width:100px;
+     height: 45px;
+     border: none;
+     border-radius: 5px;
+     
+}

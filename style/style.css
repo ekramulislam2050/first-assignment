@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: "Azeret Mono", monospace;
 }
 
 .for-all-body {
@@ -16,16 +17,19 @@ body{
     background:#000;
   
 }
+/* <---------hero start here---------------> */
 #hero{
     max-width: 100%;
     width:1170px;
     background:#fff;
     margin:0 auto;
     position:relative;
+   
 }
 #hero img{
     width: 100%;
     margin:70px 0;
+ 
 }
 .group-img{
     width:245px;
@@ -46,21 +50,22 @@ body{
   
  }
  .header-description h1{
-    font-size:30px;
+    font-size:23px;
     padding: 10px 0;
     text-align:justify;
-    word-spacing:4.1px;
-    font-weight: 800;
+    word-spacing:-8px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
   
  }
 
  .header-description p{
-    font-size: 17.3px;
+    font-size: 15px;
     text-align: center;
     padding: 10px 0;
-    line-height: 23px;
-    opacity:0.8;
-    font-weight:549;
+    /* line-height: 22px; */
+    opacity:0.7;
+    font-weight:400;
     
  }
  .contact-btn{
@@ -71,14 +76,170 @@ body{
   
  }
  .contact-btn button{
-    width:180px;
+    width:220px;
     height: 55px;
     border: 0;
     outline:0;
     color:#fff;
     background:#2E366D;
     border-radius: 5px;
-    font-size: 16px;
-    padding:5px;
+    font-size: 15px;
+    padding:5px ;
 
  }
+/* <---------hero end here---------------> */
+ #web-feeling{
+     width:900px;
+ 
+     margin:-20px auto;
+     background:rgba(250,250,251);
+
+ }
+ #web-feeling .why-web{
+    text-align: center;
+    padding:10px 0;
+    margin:30px 0;
+ }
+ .why-web h2{
+     font-weight:650;
+     word-spacing:-5px;
+     padding: 30px 10px 20px;
+ }
+ .why-web p{
+    font-size:15px;
+    opacity: 0.7;
+    font-weight:350;
+ }
+/* -----------commit-1 div start here-------- */
+ .commitment-1{
+     display:flex;
+     background:#fff;
+     margin:10px 60px 50px;
+     height: 200px;
+     border-radius:10px;
+ }
+ .commitment-1 .c-left{
+     width:60%;
+    
+     padding: 10px 15px;
+     text-align:left;
+ } 
+ .commitment-1 .c-left h3{
+    font-weight:560;
+    word-spacing: -5px;
+    padding:20px 8px 5px;
+    margin: 20px 0 5px;
+    font-size:17.8px;
+ }
+ .commitment-1 .c-left p{
+    font-size:14px;
+    word-spacing:-3px;
+    padding:5px 10px;
+    opacity:0.7;
+ }
+ .commitment-1 .c-left button{
+    width:150px;
+    height:40px;
+    font-weight: 500;
+    font-size: 15px;
+    margin:20px 10px;
+    padding:10px 0;
+ }
+ .commitment-1 .c-right{
+    width:40%;
+    margin-top:-25px ;
+ }
+ .commitment-1 .c-right img{
+   
+       height:130px;
+ }
+ /* ---------------commit-1 div end here--------- */
+ /* -------------commit-2 div start here---------- */
+ .commitment-2{
+    display:flex;
+    background:#fff;
+    margin:10px 60px 50px;
+    height: 200px;
+    border-radius:10px;
+}
+.commitment-2 .c-right{
+    width:60%;
+   
+    padding: 0px 15px;
+    text-align:left;
+} 
+.commitment-2 .c-right h3{
+   font-weight:560;
+   word-spacing: -5px;
+   padding:20px 8px 5px;
+   margin: 20px 0 5px;
+   font-size:17.8px;
+}
+.commitment-2 .c-right p{
+   font-size:14px;
+   word-spacing:-3px;
+   padding:5px 10px;
+   opacity:0.7;
+}
+.commitment-2 .c-right button{
+   width:150px;
+   height:40px;
+   font-weight: 500;
+   font-size: 15px;
+   margin:8px 10px;
+   padding:10px 0;
+}
+.commitment-2 .c-left{
+   width:40%;
+   margin-top:-25px ;
+}
+.commitment-2 .c-left img{
+  
+      height:130px;
+}
+ /* ----------------commit-2 div end here---------- */
+
+  /*--------------- commit-3 div start here -------------*/
+  .commitment-3{
+    display:flex;
+    background:#fff;
+    margin:10px 60px 50px;
+    height: 200px;
+    border-radius:10px;
+}
+.commitment-3 .c-left{
+    width:60%;
+   
+    padding: 10px 15px;
+    text-align:left;
+} 
+.commitment-3 .c-left h3{
+   font-weight:560;
+   word-spacing: -5px;
+   padding:20px 8px 5px;
+   margin: 20px 0 5px;
+   font-size:17.8px;
+}
+.commitment-3 .c-left p{
+   font-size:14px;
+   word-spacing:-3px;
+   padding:5px 10px;
+   opacity:0.7;
+}
+.commitment-3 .c-left button{
+   width:150px;
+   height:40px;
+   font-weight: 500;
+   font-size: 15px;
+   margin:20px 10px;
+   padding:10px 0;
+}
+.commitment-3 .c-right{
+   width:40%;
+   margin-top:-25px ;
+}
+.commitment-3 .c-right img{
+  
+      height:130px;
+}
+  /*----------------commit-3 div end here-------------------- */

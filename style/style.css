@@ -414,3 +414,35 @@ body {
      border-radius: 5px;
      
 }
+/* footer start----------------- */
+.des-icon{
+    width: 900px;
+    background:rgba(250,250,251);
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+.des-icon p{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.des-icon .icon {
+    width: 130px;
+    display: flex;
+
+     position: absolute;
+     top: 3215px;
+     right: 200px;
+     padding:0px 10px 8px;
+
+
+}
+.icon a {
+   margin: 5px;
+   
+}
+
+
+/* footer end-------------------------- */

@@ -446,3 +446,55 @@ body {
 
 
 /* footer end-------------------------- */
+
+
+
+@media screen and (max-width:768px) {
+    .group-img {
+        width: 195px;
+        top: 10px;
+        padding: 5px 10px;
+    }
+
+    .header-description {
+
+        top: 205px;
+
+        padding: 20px 0px 0px;
+
+    }
+
+    .header-description h1 {
+        font-size: 15px;
+        padding: 30px 0px 0px;
+
+        word-spacing: -2px;
+        letter-spacing: -0.7px;
+
+
+    }
+
+    .header-description p {
+        font-size: 12px;
+
+        opacity: 0.8;
+        font-weight: 450;
+
+    }
+
+    .contact-btn {
+
+        top: 350px;
+
+
+    }
+
+    .contact-btn button {
+        width: 150px;
+        height: 40px;
+
+        font-size: 12px;
+
+
+    }
+}
